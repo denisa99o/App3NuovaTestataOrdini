@@ -43,6 +43,7 @@ namespace App3NuovaTestataOrdini
             editText1.TextChanged += EditText_TextChanged;
             editText1.AfterTextChanged += EditText_AfterTextChanged;
 
+
             
 
         // Button button2 = FindViewById<Button>(Resource.Id.btn2);
