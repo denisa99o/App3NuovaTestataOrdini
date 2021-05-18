@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/Olive"
+	android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+		android:text="Piattaforma"
+		android:id="@+id/label1"
+		android:gravity="left"
+	/>
+	<Spinner
+		android:id="@+id/spinner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="left"
+		android:entries="@array/items_class"
+	/>
+
+
+	<LinearLayout
+		android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:weightSum="100"
+        android:orientation="horizontal" >
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="@color/black"
+		android:text="Negozio"
+		android:layout_weight="30"
+		android:id="@+id/label2"
+		android:gravity="left"
+	/>
+
+	<EditText 
+		android:id="@+id/txtNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+		android:layout_weight="90"
+		android:gravity="right"
+        android:inputType="number"
+		/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:weightSum="100"
+        android:orientation="horizontal" >
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textColor="@color/black"
+		android:textStyle="bold"
+		android:text="Reparto"
+		android:layout_weight="30"
+		android:id="@+id/label3"
+		android:gravity="left"
+	/>
+
+	<EditText 
+		android:id="@+id/txtNumber1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+		android:layout_weight="90"
+		android:gravity="right"
+        android:inputType="number"
+		/>
+	</LinearLayout>
+
+
+		<LinearLayout
+		android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:weightSum="100"
+        android:orientation="horizontal" >
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:textColor="@color/black"
+		android:textStyle="bold"
+		android:text="Data"
+		android:layout_weight="30"
+		android:id="@+id/label4"
+		android:gravity="left"
+	/>
+
+	<!-- <DatePicker 
+		android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_weight="60"
+		android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+		/>  -->
+		<Button
+			android:text="Click Here"
+			android:layout_width="0dp"
+            android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:background="@color/green"
+			android:layout_weight="50"
+			android:id="@+id/btnDate" 
+		   
+		/>
+	</LinearLayout>
+
+	<View
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+	/>
+		
+	<LinearLayout
+		android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:weightSum="100"
+        android:orientation="horizontal" >
+
+		<Button
+			android:text="Conferma"
+			android:layout_width="0dp"
+            android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:background="@color/green"
+			android:layout_weight="50"
+			android:id="@+id/btnConferma" 
+		   
+		/>
+
+		<Button
+			android:text="Annulla"
+			android:layout_width="0dp"
+            android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:background="@color/Goldenrod"
+			android:layout_weight="50"
+			android:id="@+id/btnAnnulla" 
+		   
+		/>
+		</LinearLayout>
+	<!-- <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Re"
+		android:textSize="35"
+		android:id="@+id/label3"
+		android:gravity="left"
+	/> -->
+</LinearLayout>

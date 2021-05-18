@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App3NuovaTestataOrdini</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="items_class">
+    <item>Denisa</item>
+    <item>Malutan</item>
+    <item>Cluj</item>
+    <item>Telefon</item>
+  </string-array>
+</resources>
